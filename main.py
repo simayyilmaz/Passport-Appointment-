@@ -20,7 +20,7 @@ def send_email(status, mailUser, mailPass):
             mail.login(mailUser, mailPass)
             mesaj = MIMEMultipart()
             mesaj["From"] = mailUser
-            mesaj["To"] = "simayyilmaztr@gmail.com"
+            mesaj["To"] = "YOUR_MAIL_ADDRESS"
             mesaj["Subject"] = "Pasaport Randevusu"
             body = NewStatus
             body_text = MIMEText(body, "plain")
